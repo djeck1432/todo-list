@@ -1,6 +1,7 @@
 from django.urls import include, path
-from notes.views import TodoItemsViewSet, TodoListViewSet
 from rest_framework import routers
+
+from notes.views import TodoItemsViewSet, TodoListViewSet
 
 router = routers.DefaultRouter()
 router.register(r"todo-list", TodoListViewSet, basename="todo")

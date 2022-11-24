@@ -1,5 +1,3 @@
-from notes.models import ToDoItem, ToDoList
-from notes.serializers import ToDoItemSerializer, ToDoListSerializer
 from rest_framework.authtoken.models import Token
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.mixins import (CreateModelMixin, DestroyModelMixin,
@@ -8,6 +6,9 @@ from rest_framework.mixins import (CreateModelMixin, DestroyModelMixin,
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
+
+from notes.models import ToDoItem, ToDoList
+from notes.serializers import ToDoItemSerializer, ToDoListSerializer
 
 
 class CustomAuthToken(ObtainAuthToken):

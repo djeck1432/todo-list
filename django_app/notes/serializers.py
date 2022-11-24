@@ -1,5 +1,6 @@
-from notes.models import ToDoItem, ToDoList
 from rest_framework import serializers
+
+from notes.models import ToDoItem, ToDoList
 
 
 class ToDoItemSerializer(serializers.ModelSerializer):
