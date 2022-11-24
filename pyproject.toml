@@ -2,7 +2,7 @@
 name = "djangoproject"
 version = "0.1.0"
 description = ""
-authors = ["oleh_kost <oleh.kostashchuk@startupjobs.cz>"]
+authors = ["oleh_kost <@djeck1432>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -10,12 +10,11 @@ Django = "^4.1.3"
 psycopg2 = "^2.9.5"
 djangorestframework = "^3.14.0"
 drf-yasg = "^1.21.4"
-black = "^22.10.0"
-isort = "^5.10.1"
-gunicorn = "^20.1.0"
 django-rest-swagger = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
+black = "^22.10.0"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
