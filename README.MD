@@ -2,9 +2,10 @@
 
 ## Installation:
 
-- Create new dir and go in:
+- Create new dir and change your current dir to `project`:
 ```
-mkdir proejct && cd project 
+mkdir proejct
+cd project 
 ```
 - Clone repository to `project` dir: 
 ```bash
@@ -39,7 +40,7 @@ curl --location --request POST 'http://0.0.0.0:8800/token-auth/' \
 }'
 ```
 As result will be: `{"token":"<user_token>"}%`
-2. For all further actions, please add token to headers, like this:
+2. For all further requests, please add token to headers, like this:
 `Authorization: Token <token>`
 
 
